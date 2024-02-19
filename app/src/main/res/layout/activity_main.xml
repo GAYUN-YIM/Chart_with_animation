@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F0E5FF"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_barChart"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="막대그래프"
+        android:drawableLeft="@drawable/baricon"
+        android:drawablePadding="4dp"
+        android:backgroundTint="#E4A99B"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btn_pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="원그래프"
+        android:drawableLeft="@drawable/circleicon"
+        android:drawablePadding="4dp"
+        android:backgroundTint="#A3B6C5"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btn_lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="꺾은선그래프"
+        android:drawableLeft="@drawable/lineicon"
+        android:drawablePadding="4dp"
+        android:backgroundTint="#E9CEB9"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+    <Button
+        android:id="@+id/btn_radarChart"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="radar그래프"
+        android:drawableLeft="@drawable/radaricon"
+        android:drawablePadding="4dp"
+        android:backgroundTint="#C6D2BE"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+</LinearLayout>
